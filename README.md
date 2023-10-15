@@ -1,5 +1,4 @@
 # Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn
-
 ## AIM:
 To write a program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 
@@ -9,42 +8,41 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 ## Algorithm
 
-1.Prepare your data
+### Step 1
+Prepare your data
+Clean and format your data
+Split your data into training and testing sets
+### Step 2
 
-    Clean and format your data
-    Split your data into training and testing sets
+Define your model
+Use a sigmoid function to map inputs to outputs
+Initialize weights and bias terms
+### Step 3
+Define your cost function
+Use binary cross-entropy loss function
+Penalize the model for incorrect predictions
 
-2.Define your model
+### Step 4
+Define your learning rate
+Determines how quickly weights are updated during gradient descent
 
-    Use a sigmoid function to map inputs to outputs
-    Initialize weights and bias terms
+### Step 5
+Train your model
+Adjust weights and bias terms using gradient descent
+Iterate until convergence or for a fixed number of iterations
 
-3.Define your cost function
+### Step 6
+Evaluate your model
+Test performance on testing data
+Use metrics such as accuracy, precision, recall, and F1 score
 
-    Use binary cross-entropy loss function
-    Penalize the model for incorrect predictions
+### Step 7
+Tune hyperparameters
+Experiment with different learning rates and regularization techniques
 
-4.Define your learning rate
-
-    Determines how quickly weights are updated during gradient descent
-
-5.Train your model
-
-    Adjust weights and bias terms using gradient descent
-    Iterate until convergence or for a fixed number of iterations
-
-6.Evaluate your model
-
-    Test performance on testing data
-    Use metrics such as accuracy, precision, recall, and F1 score
-
-7.Tune hyperparameters
-
-    Experiment with different learning rates and regularization techniques
-
-8.Deploy your model
-
-    Use trained model to make predictions on new data in a real-world application.
+### Step 8
+Deploy your model
+Use trained model to make predictions on new data in a real-world application.
 
 ## Program:
 ```py
